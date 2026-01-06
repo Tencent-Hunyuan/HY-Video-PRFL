@@ -249,7 +249,7 @@ torchrun --nnodes=1 --nproc_per_node=8 --master_port 29500 scripts/prfl/inferenc
 - `--dataset_path`: Path to inference dataset file
 - `--size`: Output resolution ("1280\*720" or "832\*480")
 - `--frame_num`: Number of frames to generate (default: 81)
-- `--sample_steps`: Number of inference steps (default: 50)
+- `--sample_steps`: Number of inference steps (default: 40)
 - `--sample_guide_scale`: Classifier-free guidance scale (default: 5.0)
 - `--sample_shift`: Flow shift (default: 5.0)
 - `--save_folder`: Path to save generated videos
