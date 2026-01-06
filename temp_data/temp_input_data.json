@@ -1,0 +1,20 @@
+[
+    {
+        "source_id": "0004e625d5bcb80130e1ea3d204e2488",
+        "long_caption": "A light-skinned person wearing white face paint, a red beret, round eyeglasses with dark frames, a black jacket over a striped shirt, and a red bow tie stands against a plain white background. They are wearing white gloves and gesture with their hands towards the camera.",
+        "short_caption": "A person with white face paint, a red beret, glasses, and a black jacket stands against a white background.",
+        "video_path": "temp_data/videos/0004e625d5bcb80130e1ea3d204e2488.mp4"
+    },
+    {
+        "source_id": "00086ac488a1ef8833bb6b0c6714f617",
+        "long_caption": "An adult Black male wearing a light blue shirt, dark tie with small white dots, and holding a silver marker stands beside a white board. The whiteboard has several lines of mathematical equations written in black marker. To the right of the whiteboard is a yellow sign partially obscured from view.",
+        "short_caption": "A man stands by a whiteboard with equations written on it.",
+        "video_path": "temp_data/videos/00086ac488a1ef8833bb6b0c6714f617.mp4"
+    },
+    {
+        "source_id": "0012a9d775ff5b5f9f8676a5970691fa",
+        "long_caption": "A Caucasian woman with brown hair tied back is pushing a pallet jack through a warehouse aisle. She wears a white hard hat, safety glasses, a light blue protective suit over a blue apron, and blue gloves. Cardboard boxes are stacked on either side of her, some wrapped in plastic or paper. Another person can be seen walking in the background.",
+        "short_caption": "A woman wearing safety gear operates a pallet jack in a warehouse.",
+        "video_path": "temp_data/videos/0012a9d775ff5b5f9f8676a5970691fa.mp4"
+    }
+]

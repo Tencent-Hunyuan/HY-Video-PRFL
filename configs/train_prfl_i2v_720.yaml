@@ -1,0 +1,96 @@
+train_id: "prfl_i2v_720"
+# task: "i2v-14b-720p" # t2v-1.3b, i2v-1.3b, t2v-14b, i2v-14b-480p, i2v-14b-720p
+task: "i2v-14b-720p"
+
+model:
+  base_path: weights/Wan2.1-I2V-14B-720P
+  init_transformer_path: null
+  lrm_transformer_path: null
+  lrm_mlp_path: null
+  lrm_query_attention_path: null
+  resume_transformer_path: null
+  patch_size: [1, 2, 2]
+  lora:
+    use_lora: false
+    lora_rank: 128
+    target_modules: ["q", "k", "v", "o"]
+    resume_lora_path: null  # load lora ckpt if not empty
+  ema:
+    use_ema: false
+    ema_decay: 0.99
+  fsdp:
+    fsdp_sharding_startegy: full
+    use_cpu_offload: false
+  gradient_checkpointing: true
+  selective_checkpointing: 1.0
+
+extra_model:
+  vae:
+    name: Wan2.1_VAE.pth
+    vae_stride: [4, 8, 8]
+  text_encoder:
+    t5_text_len: 512
+    t5_checkpoint: models_t5_umt5-xxl-enc-bf16.pth
+    t5_tokenizer: google/umt5-xxl
+  image_encoder:
+    clip_checkpoint: models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth
+    clip_tokenizer: xlm-roberta-large
+  scheduler:
+    flow_shift: 5.0
+    num_train_timesteps: 1000
+    weighting_scheme: uniform  # logit_normal, uniform
+    logit_mean: 0
+    logit_std: 1
+    mode_scale: 1.29
+  
+dataset:
+  meta_file_list:
+    - temp_data/temp_data_720.list
+  crop_ratio: [1, 1, 1]  # width, height
+  crop_type: "random" # center, random
+  uncond_prob: [0.1, 0.0] # prompt, image
+  sp_size: 4
+  batch_size: 1
+  sp_batch_size: 1
+  num_workers: 8
+  group_frame: null
+  group_resolution: null
+  # negative_prompt:
+
+optimizer:
+  learning_rate: 5e-6
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  weight_decay: 0.01
+  lr_scheduler: constant
+  lr_warmup_steps: 0
+  lr_num_cycles: 1
+  lr_power: 1.0
+  max_train_steps: 1000000
+
+train:
+  seed: 110221
+  precision: bf16
+  extra_precision: bf16
+  allow_tf32: false
+  save_interval: 100
+  sanity_check_interval: 100
+  teacher_student_parallel: true
+  dpo_beta: 500
+  gradient_accumulation_steps: 5.
+
+save:
+  output_dir: "outputs"
+  log_dir: null
+  sanity_check_dir: null
+lrm:
+  query_attention:
+    num_queries: 1
+    num_heads: 8
+    dropout: 0.
+    return_type: query
+  feature_layer: [8]
+  pool: q_attn
+  mlp_dim: 5120
+  task: "motion_quality"
+  trainable_blocks: [0, 1, 2, 3, 4, 5, 6, 7]

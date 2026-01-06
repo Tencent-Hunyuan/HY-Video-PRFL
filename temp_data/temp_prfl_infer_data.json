@@ -1,0 +1,50 @@
+[
+    {
+        "image_id": "0",
+        "image_path": "temp_data/ref_imgs/a brown bear in the water with a fish in its mouth.jpg",
+        "caption": "a brown bear in the water with a fish in its mouth",
+        "seed": 275029
+    },
+    {
+        "image_id": "1",
+        "image_path": "temp_data/ref_imgs/a close-up of a hippopotamus eating grass in a field.jpg",
+        "caption": "a close-up of a hippopotamus eating grass in a field",
+        "seed": 86938
+    },
+    {
+        "image_id": "2",
+        "image_path": "temp_data/ref_imgs/a sea turtle swimming in the ocean under the water.jpg",
+        "caption": "a sea turtle swimming in the ocean under the water",
+        "seed": 218637
+    },
+    {
+        "image_id": "0",
+        "image_path": "temp_data/ref_imgs/a brown bear in the water with a fish in its mouth.jpg",
+        "caption": "a brown bear in the water with a fish in its mouth",
+        "seed": 275029
+    },
+    {
+        "image_id": "1",
+        "image_path": "temp_data/ref_imgs/a close-up of a hippopotamus eating grass in a field.jpg",
+        "caption": "a close-up of a hippopotamus eating grass in a field",
+        "seed": 86938
+    },
+    {
+        "image_id": "2",
+        "image_path": "temp_data/ref_imgs/a sea turtle swimming in the ocean under the water.jpg",
+        "caption": "a sea turtle swimming in the ocean under the water",
+        "seed": 218637
+    },
+    {
+        "image_id": "0",
+        "image_path": "temp_data/ref_imgs/a brown bear in the water with a fish in its mouth.jpg",
+        "caption": "a brown bear in the water with a fish in its mouth",
+        "seed": 275029
+    },
+    {
+        "image_id": "1",
+        "image_path": "temp_data/ref_imgs/a close-up of a hippopotamus eating grass in a field.jpg",
+        "caption": "a close-up of a hippopotamus eating grass in a field",
+        "seed": 86938
+    }
+]
