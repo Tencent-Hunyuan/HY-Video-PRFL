@@ -173,7 +173,7 @@ pip install modelscope
 ```
 Then, download the pretrained DiT and VAE checkpoints. For example, you can use the following command to download the WAN2.1 checkpoint of 720P I2V task to ```./weights``` by default.
 ```
-hf download Wan-AI/Wan2.1-I2V-14B-720P --local-dir ./weights
+hf download Wan-AI/Wan2.1-I2V-14B-720P --local-dir ./weights/Wan2.1-I2V-14B-720P
 ```
 
 ## 🎓 Training

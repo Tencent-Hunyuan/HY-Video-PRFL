@@ -166,7 +166,7 @@ pip install modelscope
 ```
 然后，下载预训练的DiT和VAE检查点。例如，可以使用以下命令将720P I2V任务的WAN2.1检查点下载到默认的```./weights```目录。
 ```
-hf download Wan-AI/Wan2.1-I2V-14B-720P --local-dir ./weights
+hf download Wan-AI/Wan2.1-I2V-14B-720P --local-dir ./weights/Wan2.1-I2V-14B-720P
 ```
 
 ## 🎓 训练
