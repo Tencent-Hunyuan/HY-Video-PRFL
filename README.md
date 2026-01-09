@@ -277,6 +277,7 @@ If you find **HY-Video-PRFL** useful for your research, please cite:
 ## 🙏 Acknowledgements
 
 We sincerely thank the contributors to the following projects:
+- [FastVideo](https://github.com/hao-ai-lab/FastVideo)
 - [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)
 - [ImageReward](https://github.com/THUDM/ImageReward)

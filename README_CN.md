@@ -268,6 +268,7 @@ torchrun --nnodes=1 --nproc_per_node=8 --master_port 29500 scripts/prfl/inferenc
 ## 🙏 致谢
 
 我们真诚感谢以下项目的贡献者：
+- [FastVideo](https://github.com/hao-ai-lab/FastVideo)
 - [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)
 - [ImageReward](https://github.com/THUDM/ImageReward)
