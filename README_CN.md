@@ -271,10 +271,12 @@ torchrun --nnodes=1 --nproc_per_node=8 --master_port 29500 scripts/prfl/inferenc
 - [FastVideo](https://github.com/hao-ai-lab/FastVideo)
 - [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)
+- [SD3](https://huggingface.co/stabilityai/stable-diffusion-3-medium)
 - [ImageReward](https://github.com/THUDM/ImageReward)
 - [Diffusers](https://github.com/huggingface/diffusers)
 - [HuggingFace](https://huggingface.co)
 - [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
+
 
 ---
 
