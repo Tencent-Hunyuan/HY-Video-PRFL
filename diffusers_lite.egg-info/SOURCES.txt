@@ -1,7 +1,0 @@
-README.md
-setup.py
-diffusers_lite.egg-info/PKG-INFO
-diffusers_lite.egg-info/SOURCES.txt
-diffusers_lite.egg-info/dependency_links.txt
-diffusers_lite.egg-info/requires.txt
-diffusers_lite.egg-info/top_level.txt
