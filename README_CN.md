@@ -13,6 +13,7 @@
   <a href="https://github.com/Tencent-Hunyuan/HY-Video-PRFL"><img src="https://img.shields.io/static/v1?label=HY-Video-PRFL%20Code&message=Github&color=blue"></a> &ensp;
   <a href="https://hy-video-prfl.github.io/HY-VIDEO-PRFL/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Web&color=green"></a> &ensp;
   <a href="https://arxiv.org/pdf/2511.21541"><img src="https://img.shields.io/badge/ArXiv-2511.21541-red"></a> &ensp;
+  <a href="https://huggingface.co/tencent/HY-Video-PRFL"><img src="https://img.shields.io/badge/🤗%20HuggingFace-Model-yellow"></a>
 </div>
 
 <br>
